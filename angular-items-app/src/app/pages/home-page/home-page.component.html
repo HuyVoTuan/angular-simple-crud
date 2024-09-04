@@ -1,0 +1,14 @@
+<!-- ItemTableComponent for displaying and interacting with items -->
+<app-item-table
+  [items]="dataSource"
+  [isLoading]="isLoading"
+  [pageIndex]="pageIndex"
+  [pageSize]="pageSize"
+  [totalPages]="totalPages"
+  (edit)="openDialog($event)"
+  (delete)="deleteItem($event)"
+  (add)="openDialog()"
+  (page)="handlePageEvent($event)"
+  (search)="handleSearch($event)"
+  (sort)="handleSort($event)"
+></app-item-table>

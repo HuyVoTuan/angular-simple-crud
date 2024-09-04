@@ -1,0 +1,58 @@
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    box-sizing: 1rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: 1rem;
+}
+
+td {
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+
+mat-paginator {
+    margin-top: 2rem;
+    align-self: flex-end;
+}
+
+.item-table-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.table__header {
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+}
+
+.table__header input[type='text'] {
+    flex: 0.75;
+    margin: 0 2rem;
+    padding: 1.2rem;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+}
+
+.table__header select,
+.table__header section {
+    margin: 0 0.5rem;
+    padding: 0.5rem;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
